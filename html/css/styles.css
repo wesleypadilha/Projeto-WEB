@@ -1,0 +1,268 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B2BEBF;
+}
+
+header {
+    background-color: #f4EBD3;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}   
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f4EBD3;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.works {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text], 
+input[type=email], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#top {
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo {
+    color: white;
+}
+
+#bot {
+
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobre {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.destaque {
+    padding: 15px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#top a:link, #top a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#top a:hover {
+    color: #008F8C;
+    background: #FFF;
+    text-decoration: none;
+}
+
+.editImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+
+}
+
+.editParag {
+    width: 300px;
+    font-size: 1em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    margin-left: 0px;
+    margin-top: 60px;
+    float: right;
+    background-color: #3D3D3D;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1000px;
+}
+
+.icone {
+    width: 15px;
+}
+
+
+.modal {
+    position: absolute;
+    display: none;
+    left: 20%;
+    top: 100%;
+    max-width: 200px;
+    background-color: #0FC2C0;
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-shadow: 0 25px 25px rgb(0 0 0 / 30%);
+}
+.modal .info {
+    color: black;
+    font-size: medium;
+    padding-left: 10px;
+    text-align: center;
+}
+.modal .infoH {
+    color: black;
+    font-size: medium;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.topright {
+    position: absolute;
+    right: 5px;
+    border-radius: 4px;
+    padding: 2px;
+    top: 0;
+    background-color: black;
+    color: #fff;
+    cursor: pointer
+}
+
+.divisao {
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card-text {
+    padding: 2px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: #3D3D3D;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1500px;
+}
+
+/* Estilos about.html */
+
+#area-pric {
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#area-post {
+    width: 660px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 250px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    margin-right: 500px;
+}
+
+#conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.info-basicas {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3D3D3D;
+    color: white;
+}
+
+.img-viagem {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+
+}

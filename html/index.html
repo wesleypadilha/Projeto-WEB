@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Home</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    
+    <!--CABEÇALHO DO SITE-->
+    <header id="top">
+        <h1>Portfólio de <span class="titulo">João Silva</span></h1>
+        <nav>
+            <ul>
+               <li><a href="index.html">Página Inicial</a></li>
+               <li><a href="about.html">Sobre mim</a></li>
+               <li><a href="contact.html">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <!--CONTEÚDO DO SITE-->
+    <div>
+        <div class="sobre">
+            <div>
+                <h2>Bem vindo ao meu Portfólio</h2>
+                <p>Bem vindo ao meu portifólio de um Desenvolvedor em construção.<br> Explore meus trabalhos e sinta-se a vontade para entrar em contato!</p>
+            </div>
+
+            <div>
+                <h2>Um pouco sobre mim:</h2>
+                <p class="editParag">
+                    
+                    No geral, João Silva é um programador talentoso, dedicado e apaixonado por sua profissão. Sua combinação de habilidades técnicas, personalidade analítica e paixão por resolver problemas torna-o um ativo valioso para qualquer equipe de desenvolvimento de software.
+
+                </p>
+                <img src="img/imagem1.jpg">
+            </div>
+        </div>
+
+        <div class="divisao"> 
+        </div>
+
+        <div class="destaque">
+            <h2>Seção de Destaque:</h2>
+            <div>
+                <h3>Projeto Xadrez</h3>
+                <img class="editImg" src="img/imagem2.jpeg">
+                <p class="card-text">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    O projeto "Backend de Jogo de Xadrez" é uma implementação do backend de um jogo de xadrez em Java, que permite aos jogadores desfrutar de partidas de xadrez online. O objetivo principal do projeto é criar uma infraestrutura sólida e eficiente para gerenciar a lógica do jogo, as regras do xadrez e a interação entre os jogadores. <br>
+                    Este projeto de backend é parte integrante de um sistema maior que incluiria um cliente frontend, como um aplicativo móvel ou um site, para que os jogadores possam acessar o jogo. Além disso, a segurança e a integridade dos dados dos jogadores devem ser uma prioridade, com a implementação de práticas de segurança robustas.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <input class="modalButton" type="button" value="Detalhes" onclick="openModal('Xadrez');">
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <h3>Projeto Cardápio</h3>
+                <img class="editImg" src="img/imagem3.jpeg">
+                <p class="card-text">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    O projeto "Cardápio de Hot Dog" é uma aplicação web desenvolvida utilizando HTML, CSS e JavaScript que tem como objetivo exibir um cardápio de hot dogs e permitir aos clientes visualizar as opções disponíveis, fazer pedidos e personalizar suas escolhas. Este frontend é uma parte essencial de um sistema de pedidos online para uma lanchonete de hot dogs. <br>
+                    O frontend descrito é uma parte essencial de um sistema de pedidos de hot dogs online, e deve ser integrado com um backend para processar pedidos, gerenciar estoque e lidar com a finalização do pagamento (se for o caso). Além disso, medidas de segurança devem ser implementadas para proteger as informações do cliente, especialmente durante a finalização do pedido. Também é importante criar um design atraente e amigável ao usuário para uma experiência de usuário agradável.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <input class="modalButton" type="button" value="Detalhes" onclick="openModal('Cardapio');">
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <h3>Projeto Jogo Mario</h3>
+                <img class="editImg" src="img/imagem4.jpeg">
+                <p class="card-text">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    O projeto "Jogo do Mario" é uma implementação de um jogo inspirado no famoso personagem Mario, desenvolvido com funcionalidades completas, incluindo o frontend e o backend. O jogo do Mario é uma aventura em plataforma que envolve o personagem Mario em suas jornadas através de vários níveis, coletando moedas, derrotando inimigos e resgatando a princesa. <br>
+                    Este projeto requer uma combinação de habilidades frontend e backend para criar uma experiência de jogo completa e interativa. A implementação de gráficos, animações e física é fundamental para criar um jogo divertido e envolvente. Além disso, a segurança do sistema de autenticação de usuário e a persistência de dados são preocupações importantes para garantir uma experiência de jogo confiável e duradoura.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <input class="modalButton" type="button" value="Detalhes" onclick="openModal('Mario');">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="knowMore" class="modal">
+        <div>
+            <span onclick="closeModal();" class="topright">X</span>
+        </div>
+        <div>
+            <p id="txt1" class="infoH"></p> 
+            <p id="txt2" class="info"></p>
+            <p id="txt3" class="info"></p>
+        </div>
+    </div>
+
+    <!--RODAPÉ DO SITE-->
+    <div id="bot">
+        <div>
+            <span> <img src="img/icone3.jpeg" class="icone"> <a href="https://www.instagram.com/"> Instagram </a></span> <br>
+            <span> <img src="img/icone2.jpeg" class="icone"> <a href="https://www.linkedin.com/"> Linkedin </a></span> <br>
+            <span> <img src="img/icone1.jpeg" class="icone"> <a href="https://www.gmail.com/"> Email </a></span> <br>
+        
+            &copy; 2023 Todos os direitos reservados
+        </div>
+    </div>
+
+<!---ADICIONE UM ARQUIVO JAVASCRIPT-->
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
