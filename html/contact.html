@@ -28,12 +28,12 @@
         <form method="GET" action="contact_action.html">
             <div>
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" pattern = "^[A-Za-z\s]+$" title="Somente letras" required>
             </div> <br>
 
             <div>
                 <label for="nome">Celular:</label>
-                <input type="text" name="celular" id="celular" placeholder="Digite seu Celular" required>
+                <input type="text" name="celular" id="celular" pattern="\(\d{2}\)\s\d{4,5}-\d{4}$" placeholder="Digite seu Celular" title="(xx) xxxxx-xxxx" required>
             </div> <br>
 
             <div>
