@@ -40,12 +40,6 @@ footer {
     padding: 10px 0;
 }
 
-.works {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
 form {
     margin-top: 20px;
@@ -145,6 +139,7 @@ a:hover {
 
 .modal {
     position: fixed;
+    display: none;
     top: 100px;
     left: 100px;
     max-width: 200px;
