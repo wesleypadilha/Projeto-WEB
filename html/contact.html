@@ -26,7 +26,7 @@
         <h2>Formulário de Contato</h2>
         <p>Sinta-se á vontade para entrar em contato comigo usando o formulário abaixo ou através das minhas redes sociais:</p>
         <form method="GET" action="contact_action.html">
-            <div></div>
+            <div>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
             </div> <br>
@@ -38,14 +38,14 @@
 
             <div>
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="Digite seu e-mail" required>
             </div><br>
             
             <div>
                 <label for="mensagem">Mensagem:</label>
                 <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
             </div><br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="custom-button">
 
         </form>
 
@@ -55,7 +55,7 @@
     </main>
 
     <!--RODAPÉ DO SITE-->
-    <footer>
+    <footer id="bot">
         &copy; 2023 Todos os direitos reservados
     </footer>
 

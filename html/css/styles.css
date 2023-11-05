@@ -67,6 +67,8 @@ textarea {
     border-radius: 5px;
 }
 
+/* Estilos index.html */
+
 #top {
     background-color: #008F8C;
     color: #000;
@@ -137,32 +139,14 @@ a:hover {
 
 }
 
-.editParag {
-    width: 300px;
-    font-size: 1em;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-right: 500px;
-    margin-left: 0px;
-    margin-top: 60px;
-    float: right;
-    background-color: #3D3D3D;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1000px;
-}
-
 .icone {
     width: 15px;
 }
 
-
 .modal {
-    position: absolute;
-    display: none;
-    left: 20%;
-    top: 100%;
+    position: fixed;
+    top: 100px;
+    left: 100px;
     max-width: 200px;
     background-color: #0FC2C0;
     border-radius: 10px;
@@ -174,13 +158,7 @@ a:hover {
     font-size: medium;
     padding-left: 10px;
     text-align: center;
-}
-.modal .infoH {
-    color: black;
-    font-size: medium;
-    text-transform: uppercase;
-    padding-left: 10px;
-    text-align: center;
+    background-color: #a9cfce;
 }
 
 .topright {
@@ -242,6 +220,9 @@ a:hover {
 .texto-lateral {
     font-size: 0.8em;
     padding: 5px;
+    text-align: center;
+    background-color: #00CED1;
+    
 }
 
 .info-basicas {
@@ -265,4 +246,40 @@ a:hover {
     color: #1E1E2A;
     cursor: pointer;
 
+}
+
+
+/* Estilos contact.html */
+.custom-button {
+  background-color: #008F8C;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.custom-button:hover {
+  background-color: #5e9fa3;
+}
+
+.tableCSS {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.tableCSS th, .tableCSS td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableCSS th {
+    background-color: #399e9c;
+}
+
+.tableCSS td {
+    background-color: #96e3e1;
 }
