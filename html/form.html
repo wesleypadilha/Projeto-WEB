@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Dev. Wesley Padilha</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
     
     <!--CABEÇALHO DO SITE-->
+<<<<<<< HEAD:html/form.html
     <header>
         <h1>Portfólio</h1>
         <nav>
@@ -16,6 +17,15 @@
                <li><a href="index.html">Página Inicial</a></li>
                <li><a href="works.html">Projetos</a></li>
                <li><a href="form.html">Contato</a></li> <!--Página do Formulário-->               
+=======
+    <header id="top">
+        <h1>Portfólio de <span class="titulo">João Silva</span></h1>
+        <nav>
+            <ul>
+               <li><a href="index.html">Página Inicial</a></li>
+               <li><a href="about.html">Sobre mim</a></li>
+               <li><a href="contact.html">Contato</a></li> 
+>>>>>>> fad36ac5da2ffa6b25373315bf08d2b2b724fd68:html/contact.html
             </ul>
         </nav>
     </header>
@@ -25,19 +35,27 @@
 
         <h2>Formulário de Contato</h2>
         <p>Sinta-se á vontade para entrar em contato comigo usando o formulário abaixo ou através das minhas redes sociais:</p>
-        <form action="recebercontato.html" method="get">
+        <form method="GET" action="contact_action.html">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" pattern = "^[A-Za-z\s]+$" title="Somente letras" required>
+            </div> <br>
 
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-            <br>
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
-            <br>
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-            <br>
-            <input type="submit" value="Enviar">
+            <div>
+                <label for="nome">Celular:</label>
+                <input type="text" name="celular" id="celular" pattern="\(\d{2}\)\s\d{4,5}-\d{4}$" placeholder="Digite seu Celular" title="(xx) xxxxx-xxxx" required>
+            </div> <br>
 
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="Digite seu e-mail" required>
+            </div><br>
+            
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            </div><br>
+            <input type="submit" value="Enviar" class="custom-button">
         </form>
 
         <p>Redes Sociais: <a href="www.linkedin.com/in/wesley-padilha-🏳️‍🌈-a23ab7189"></a></p>
@@ -48,9 +66,10 @@
     </main>
 
     <!--RODAPÉ DO SITE-->
-    <footer>
+    <footer id="bot">
         &copy; 2023 Todos os direitos reservados
     </footer>
 
 </body>
 </html>
+

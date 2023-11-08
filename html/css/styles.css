@@ -1,8 +1,13 @@
 body {
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
+=======
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+>>>>>>> fad36ac5da2ffa6b25373315bf08d2b2b724fd68
     margin: 0;
     padding: 0;
+    background-color: #B2BEBF;
 }
 
 nav {
@@ -38,10 +43,22 @@ a:hover {
 .about-section {
     background-color: #fff;
     padding: 20px;
+<<<<<<< HEAD
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+=======
+}
+
+footer {
+    background-color: #f4EBD3;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+>>>>>>> fad36ac5da2ffa6b25373315bf08d2b2b724fd68
 
 h2 {
     color: #333;
@@ -60,6 +77,7 @@ input, textarea {
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 button {
     background-color: #00bcd4;
     color: #fff;
@@ -75,3 +93,221 @@ button:hover {
 }
 
 /* Adicione mais estilos conforme necessário */
+=======
+/* Estilos index.html */
+
+#top {
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo {
+    color: white;
+}
+
+#bot {
+
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobre {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.destaque {
+    padding: 15px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#top a:link, #top a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#top a:hover {
+    color: #008F8C;
+    background: #FFF;
+    text-decoration: none;
+}
+
+.editImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+
+}
+
+.icone {
+    width: 15px;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    top: 100px;
+    left: 100px;
+    max-width: 200px;
+    background-color: #0FC2C0;
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-shadow: 0 25px 25px rgb(0 0 0 / 30%);
+}
+.modal .info {
+    color: black;
+    font-size: medium;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #a9cfce;
+}
+
+.topright {
+    position: absolute;
+    right: 5px;
+    border-radius: 4px;
+    padding: 2px;
+    top: 0;
+    background-color: black;
+    color: #fff;
+    cursor: pointer
+}
+
+.divisao {
+    background-color: #008F8C;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card-text {
+    padding: 2px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: #3D3D3D;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1500px;
+}
+
+/* Estilos about.html */
+
+#area-pric {
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#area-post {
+    width: 660px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 250px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    margin-right: 500px;
+}
+
+#conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    text-align: center;
+    background-color: #00CED1;
+    
+}
+
+.info-basicas {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3D3D3D;
+    color: white;
+}
+
+.img-viagem {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #60E1E0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+
+}
+
+
+/* Estilos contact.html */
+.custom-button {
+  background-color: #008F8C;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.custom-button:hover {
+  background-color: #5e9fa3;
+}
+
+.tableCSS {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.tableCSS th, .tableCSS td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableCSS th {
+    background-color: #399e9c;
+}
+
+.tableCSS td {
+    background-color: #96e3e1;
+>>>>>>> fad36ac5da2ffa6b25373315bf08d2b2b724fd68
