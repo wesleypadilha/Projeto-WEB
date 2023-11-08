@@ -3,10 +3,10 @@ const showDescriptionButtons = document.querySelectorAll('.show-description-butt
 
 function toggleDescription(event) {
     //Acesse a descrição do trabalho relacionado a este botão
-    const description = event.target.parentElement.querySelectorAll("work-description");
+    const workDescription = event.target.parentElement.querySelectorAll(".work-description");
 
     //Toggle para mostrar ou ocultar a descrição do trabalho
-    if (workDescription.style.display === 'none', workDescription.style.display = "") {
+    if (workDescription.style.display === 'none', workDescription.style.display === '') {
         workDescription.style.display = 'block';
     }
     else {
